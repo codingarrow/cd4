@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1024px) {
+	#l2 .layer-2-line-1 { text-align: center; }
+	#l2 .layer-2-line-2 { margin-left: 35px; }
+	#l3 .row .boxes .box .details .photo { width: 100px; }
+	#l3 .row .boxes .box .details .photo img  { width: 100%; }
+	#l3 .block .photo { width: 230px; }
+	#l3 .block .photo img { width: 100%; }
+	#l3 .block.one .inner-box .wrapper .row div:last-child { width: 400px; }
+	#l3 .block.one .inner-box .wrapper .row div:last-child img { width: 100%; }
+	#l4 .row .box:first-child .content .details .content { float: right; width: 590px; }
+	#l4 .row .box:first-child .content .details .content img { float: none !important; }
+	#l4 .row .box.b2 .content .details .content { width: initial; }
+	#l4 .row .box.b2 .details { width: 270px; }
+	#l4 .row .box.b2 .details img { max-width: 100%; }
+	#l4 .row .box > .content .photo { width: 125px; }
+	#l4 .row .box > .content .photo img { width: 100%; }
+	#l6 .steps { padding: 0 20px; }
+	#l6 .steps > .step img { height: 70px; }
+	#l6 .steps > .step.card > img { height: 90px; }
+	#l6 .steps > .step.card .text img { height: initial !important; }
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	#l2 .layer-2-line-1 { padding: 0 20px; }
+	#l2 .layer-2-line-1 img { width: 100%; }
+	#l2 .layer-2-card { right: 30px; bottom: -202px; width: 257px; }
+	#l2 .layer-2-card img { width: 100%; }
+	#l3 .row > .title { padding: 6px 20px; }
+	#l3 .row > .title img { width: 100%; }
+	#l3 .row .boxes .box .details .photo, #l3 .row .boxes .box .details .content img { width: 100%; }
+	#l3 .row .boxes .box .details .content { float: left; margin-top: 15px; width: 100%; }
+	#l3 .row .boxes .box:nth-child(even) > .content { margin-left: 20px; }
+	#l3 .row .boxes .box:nth-child(odd) > .content { margin-right: 20px; }
+	#l3 .block > .header { clear: both; }
+	#l3 .block .photo { width: 300px; }
+	#l3 .block.one .inner-box { padding: 30px; }
+	#l3 .block.one .inner-box .wrapper .row div:last-child { margin: 15px 0 0 0; width: 100%; }
+	#l3 .quote img { width: 100%; }
+	#l4 .row .box > .content .photo { width: 100%; }
+	#l4 .row .box.b1 .content .photo { width: 200px; }
+	#l4 .row .box.b1 .content .details .content { width: 452px; }
+	#l4 .row .box.b1 .content .details .content img:first-child, #l4 .row .box.b1 .content .details .content img:last-child { width: 100%; }
+	#l4 .row .box.b2 .details { margin: 20px 0 0 0; width: 100%; }
+	#l4 .row .box > .content .details .header { margin: 0; }
+	#l4 .row .box.b2 .content .details .content { width: 100%; height: 77px; }
+	#l5 .boxes .box { width: 50%; height: 150px; }
+	#l5 .boxes .box .wrapper { width: 90%; }
+	#l6 .steps > .step img { height: initial; }
+	#l6 .steps > .step { margin-top: 20px; }
+	#l6 .steps > .step.card { margin-top: 20px; }
+	#l6 .steps > .step.card .text { top: 30px; left: 155px; }
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.section .row { margin: 0 15px; }
+	#l1 .inner .line { padding: 0 10px; }
+	#l1 .inner .line img { width: 100%; }
+	#l2 .layer-2-card { position: relative; top: 0; left: 0; margin: -90px auto -68px auto; }
+	#l3 .row > .title { padding: 6px 10px; }
+	#l3 .row .boxes .box .title img { width: 100%; }
+	#l3 .row .boxes .box:nth-child(even) > .content { margin-left: 10px; }
+	#l3 .row .boxes .box:nth-child(odd) > .content { margin-right: 10px; }
+	#l3 .row { margin-top: 30px !important; }
+	#l3 .block > .header .num, #l3 .block .header .title { position: relative; }
+	#l3 .block .photo { width: 100%; margin-bottom: 20px; }
+	#l3 .block > .header { clear: both; float: left; height: initial; margin-bottom: 20px; }
+	#l3 .block > .header .title { top: 0; left: 0; margin: 10px 0; }
+	#l3 .block > .header .title img { width: 100%; }
+	#l3 .block .content { margin: 0; width: 100%; }
+	#l3 .block .content img { width: 100%; }
+	#l3 .block.one .inner-box { margin: 10px 0 0 0; padding: 15px; }
+	#l3 .block.one .inner-box .wrapper .row { float: initial; }
+	#l3 .block.one .inner-box .wrapper .row div:first-child { width: 100%; }
+	#l3 .block.one .inner-box .wrapper .row div:last-child { margin-bottom: 10px; }
+	#l3 .block.one .inner-box .wrapper .row div:last-child img { width: 100%: }
+	#l4 .title img { width: 100%; }
+	#l4 .row .box.b1 .content .photo { width: 100%; margin-bottom: 10px; }
+	#l4 .row .box.b1 .content .details .content { width: 100%; }
+	#l4 .row .box.b1 .content .details .content img { width: 100%; }
+	#l6 .title img { width: 100%; }
+	#l6 .steps > .step.card .text { top: initial; bottom: -40px; left: 15px; }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	#banner .text-1 { font-size: 36px; line-height: 56px; }
+	#banner .inner .line { float: none; margin: 20px auto 0 auto; text-align: center; }
+	#l1 .inner .line { padding: 0 0; }
+	#l1 .inner .line img { width: 100%; }
+	.black-button { margin: 0; width: 100%; border-radius: none; }
+	#banner .black-button { margin: 0 auto; width: 100%; }#l2 .layer-2-line-1 { padding: 0 20px; }
+}
